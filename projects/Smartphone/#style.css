@@ -1,0 +1,39 @@
+
+    img {
+        display: box;
+        size: 60vh;
+        width: 10vw;
+        max-width: 20rem;
+        flex-direction: row;
+      }
+      
+      .outer-flex-container {
+        background-color: #D3D3D3;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+      }
+      
+      .case {
+        border: .5rem solid blue;
+        padding: 1em;
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+      }
+      
+      .flex-container {
+        display: flex;
+        background: rgb(255,79,181);
+  background: linear-gradient(123deg, rgba(255,79,181,1) 0%, rgba(255,148,224,1) 43%, rgba(255,225,250,1) 100%);
+        padding: 1rem;
+        flex-direction: row;
+      
+        gap: 1rem;
+        
+      /*   max-width: 30rem; */
+      }
